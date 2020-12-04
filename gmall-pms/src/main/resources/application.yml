@@ -1,0 +1,20 @@
+#spring.elasticsearch.jest.uris[0]=http://192.168.2.134:9200
+#spring.elasticsearch.jest.uris[1]=http://192.168.2.134:9201
+#spring.elasticsearch.jest.uris[2]=http://192.168.2.134:9202
+
+
+
+spring:
+  elasticsearch:
+    jest:
+      uris: http://192.168.2.137:9200, http://192.168.2.137:9201, http://192.168.2.137:9202
+      #      username: elasticsearch
+      #      password: 123456
+      read-timeout: 20000 #读取超时
+      connection-timeout: 20000 #连接超时
+
+#es.url: http://dev-es01-a.es.01zhuanche.com:9200
+#es.max-total: 100
+#es.per-total: 100
+
+
